@@ -140,3 +140,7 @@ h1{
 
 /*DETAIL-MOVIES.HTML*/
 
+/*DETAIL-SERIES.HTML*/
+p{
+    display: block;
+}
