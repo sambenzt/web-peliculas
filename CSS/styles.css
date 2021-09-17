@@ -50,6 +50,12 @@ body{
      
 }
 
+/* INDEX:HTML*/
+
+h1{
+    margin-left: 39px;
+}
+
 h2 .titulos{
     text-transform: uppercase;
     font-size: medium;
@@ -117,28 +123,33 @@ h1{
 
 
 
-/* GENRES:HTML */
-
-.generostodos{
-    display: flex;
-    flex-wrap: wrap;
-   
-}
-.generos{
-    font-size: 19px;
-    margin:140px; 
-    justify-content: space-around;
-    background-color: lightblue;
-    margin-bottom: 120px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-
-}
+/* GENRES.HTML */
 
 
 /*DETAIL-MOVIES.HTML*/
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.cajadetailmovie{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.movies{
+    width: 50%;
+    text-align: center;
+    justify-content: space-around;
+    color: white;
+    border-right: 2px solid black;
+    font-size: 30px;
+    padding: 20px; 
+}
+
 
 /*DETAIL-SERIES.HTML*/
 p{
