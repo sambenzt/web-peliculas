@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.logo{
+    border-radius: 90%;
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.barratexto{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.cajainicio{
+    background-color: lightblue;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+
+/* BODY HTML*/ 
+
+body{
+   background-color: rgba(59, 195, 204, 1);
+   font-family: 'PT Sans Narrow', sans-serif;
+   font-size: 18px;
+   color: white; 
+   
+     
+}
+
+h2 .titulos{
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+
+.cajapadre{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.cajahija img{
+    width: 250px; 
+    height: 350px;
+    justify-content: space-around;   
+}
+
+.cajahija{
+    width: 20%;
+    text-align: center;
+    justify-content: space-around;
+    line-height: 6px;
+    color: white;
+}
+
+
+h4{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    
+
+}
+
+h1{
+    text-align: left;
+}
+
+
+
+/* FOOTER*/
+.footer{
+    background-color: lightblue;
+    text-align: center;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-size: 18px; 
+}
+
+.nombresintegrantes{
+    margin-left: 20px;
+}
+
+.contactos{
+    margin-left: 20px;
+}
+
+
+
+/* GENRES:HTML */
+
+.generostodos{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.generos{
+    font-size: 19px;
+    margin:140px; 
+    justify-content: space-around;
+    background-color: lightblue;
+    margin-bottom: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+
+/*DETAIL-MOVIES.HTML*/
