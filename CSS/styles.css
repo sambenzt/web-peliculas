@@ -50,6 +50,12 @@ body{
      
 }
 
+/* INDEX:HTML*/
+
+h1{
+    margin-left: 39px;
+}
+
 h2 .titulos{
     text-transform: uppercase;
     font-size: medium;
