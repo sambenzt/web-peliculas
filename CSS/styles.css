@@ -23,6 +23,16 @@
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
+.buscadorpalabra{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
 .menu{
     display: flex;
     flex-wrap: wrap;
@@ -37,6 +47,11 @@
     margin-bottom: 50px;
     margin-top: 40px;
 }
+
+a{
+    color: white;
+}
+
 
 
 /* BODY HTML*/ 
@@ -53,7 +68,7 @@ body{
 
 h1{
     margin-left: 39px;
-    text-align:left;
+    
 }
 
 h2 .titulos{
@@ -93,9 +108,7 @@ h4{
 
 }
 
-h1{
-    text-align: left;
-}
+
 
 
 
@@ -142,34 +155,7 @@ h1{
 
 }
 
-/*DETAIL-MOVIES.HTML*/
 
-.cajadetailmovie{
-    display: flex;
-    flex-wrap:wrap;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.movies{
-    width: 50%;
-    text-align: center;
-    justify-content: space-around;
-    color: white;
-    border-right: 2px solid black;
-    font-size: 3opx;
-    padding: 20px;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-.ocultar{
-    display:none;
-
-}
 
 /*DETAIL-SERIES.HTML*/
 
@@ -186,28 +172,42 @@ a{
     justify-content: space-around;
     color: white;
     border-right: 2px solid black;
-    font-size: 3opx;
+    font-size: 30px;
     padding: 20px;
 }
 
-/*MEDIA QUERIES*/
 
+/*MEDIA QUERIES*/
 @media(max-width: 768px){
     .cajahija img{
-        width: 100px;
+        width: 100px; 
         height: 150px;
-        justify-content: space-around;
-        width: 50%;
+        justify-content: space-around;   
     }
 
     .ocultar{
-        display: none;
+        display:block
     }
 
     .mostrar{
-        display: none;
+        display:none
+    }
+}
+
+@media (max-width: 420px ){
+    .cajahija img{
+        width: 100px; 
+        height: 150px;
+        justify-content: space-around;   
     }
 
+    .ocultar{
+        display:block;
+    }
+
+    .mostrar{
+        display:none
+    }
     h1{
         font-size: 30px;
     }
@@ -221,8 +221,14 @@ a{
         font-size: 15px;
     }
 
-    .barratexto{
+    .cajahija{
         width: 100%;
+
+    }
+
+    .barratexto{
+        width:100%;
+        margin-left: 50px;
     }
 
     .logo{
@@ -232,10 +238,25 @@ a{
         margin-top: 20px;
         margin-left: 120px;
         margin-bottom: 20px;
+
+
     }
 
     .buscador{
-        margin-left: 120px;
+        margin-left:80px;
+
     }
 
+    h1{
+        margin-left: 20px;
+       
+    }
+
+    .buscadorpalabra{
+        margin-left: 70px;
+    }
+
+    
 }
+
+
