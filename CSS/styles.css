@@ -168,5 +168,22 @@ a{
 
 /*DETAIL-SERIES.HTML*/
 
+.cajaSeries{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.descripcionSerie{
+    width: 50%;
+    text-align: center;
+    justify-content: space-around;
+    color: white;
+    border-right: 2px solid black;
+    font-size: 3opx;
+    padding: 20px;
+}
+
 
 
