@@ -20,6 +20,11 @@
     padding: 20px;
 }
 
+.fotoPortada img{
+    width: 60%;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
 a{
     text-decoration: none;
     color: white;
