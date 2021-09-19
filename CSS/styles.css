@@ -185,5 +185,10 @@ a{
     padding: 20px;
 }
 
+/*MEDIA QUERIS*/
 
+.ocultar{
+    display:none;
+    
+}
 
