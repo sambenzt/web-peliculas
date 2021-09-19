@@ -1,5 +1,8 @@
 /*DETAIL-SERIES.HTML*/
 
+*{
+    box-sizing: border-box;
+}
 .cajaSeries{
     display: flex;
     flex-wrap:wrap;
