@@ -141,6 +141,9 @@ h1{
     padding-bottom: 30px;
 
 }
+
+/*DETAIL-MOVIES.HTML*/
+
 .cajadetailmovie{
     display: flex;
     flex-wrap:wrap;
@@ -158,13 +161,12 @@ h1{
     padding: 20px;
 }
 
-
-/*DETAIL-MOVIES.HTML*/
-
 a{
     text-decoration: none;
     color: white;
 }
 
 /*DETAIL-SERIES.HTML*/
+
+
 
