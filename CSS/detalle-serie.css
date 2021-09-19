@@ -33,3 +33,21 @@ a{
 
 /*MEDIA QUERIES*/
 
+@media (max-width: 420px ){
+    .cajaSeries{
+        width: 150%;
+    } 
+
+    .descripcionSerie{
+        margin-left: 50px;
+        width: 50%;
+        text-align: center;
+        justify-content: space-around;
+        color: white;
+        font-size: 3opx;
+        padding: 20px;
+        border-right: none;
+    }
+}
+
+        
