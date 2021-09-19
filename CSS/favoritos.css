@@ -33,3 +33,9 @@
   h1{
       text-align: center;
   }
+
+  @media (max-width: 420px ){
+      .cajaPadre{
+          margin-left: 50px;
+      }
+  }
