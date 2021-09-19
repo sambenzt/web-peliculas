@@ -49,12 +49,17 @@ body{
    
      
 }
+/* Index: html*/
+
+h1{
+    margin-left: 39px;
+    text-align:left;
+}
 
 h2 .titulos{
     text-transform: uppercase;
     font-size: medium;
 }
-
 
 .cajapadre{
     display: flex;
@@ -136,11 +141,30 @@ h1{
     padding-bottom: 30px;
 
 }
+.cajadetailmovie{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.movies{
+    width: 50%;
+    text-align: center;
+    justify-content: space-around;
+    color: white;
+    border-right: 2px solid black;
+    font-size: 3opx;
+    padding: 20px;
+}
 
 
 /*DETAIL-MOVIES.HTML*/
 
-/*DETAIL-SERIES.HTML*/
-p{
-    display: block;
+a{
+    text-decoration: none;
+    color: white;
 }
+
+/*DETAIL-SERIES.HTML*/
+
