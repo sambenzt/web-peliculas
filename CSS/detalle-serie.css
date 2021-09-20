@@ -23,29 +23,30 @@
 }
 
 .fotoPortada img{
-    width: 60%;
+    width: 100%;
     display: block;
     margin: auto;
     padding-bottom: 30px;
 }
 
-/*MEDIA QUERIES*/
 
-@media (max-width: 420px ){
-    .cajaSeries{
-        width: 150%;
-    } 
+
+/*MEDIA QUERIES*/
+@media(max-width: 768px){
+    .fotoPortada{
+        width:100%;
+        border: 2px solid black; 
+    }
 
     .descripcionSerie{
-        margin-left: 50px;
-        width: 50%;
-        text-align: center;
-        justify-content: space-around;
-        color: white;
-        font-size: 3opx;
-        padding: 20px;
-        border-right: none;
+        width:100%;
+        border: 2px solid black; 
+        
     }
+    
 }
+
+
+
 
         
