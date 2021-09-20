@@ -3,6 +3,8 @@
 *{
     box-sizing: border-box;
     text-decoration: none;
+    color: white;
+    
 }
 .cajaSeries{
     display: flex;
@@ -15,20 +17,16 @@
     width: 50%;
     text-align: center;
     justify-content: space-around;
-    color: white;
-    border-right: 2px solid black;
-    font-size: 3opx;
+    border-left: 2px solid black;
+    font-size: 20px;
     padding: 20px;
 }
 
 .fotoPortada img{
     width: 60%;
-    margin-left: 15px;
-    margin-bottom: 15px;
-}
-a{
-    text-decoration: none;
-    color: white;
+    display: block;
+    margin: auto;
+    padding-bottom: 30px;
 }
 
 /*MEDIA QUERIES*/
