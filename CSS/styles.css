@@ -401,6 +401,26 @@ a{
     color: white;
 }
 
+
+@media(max-width: 768px){
+    .cajahijasearch img{
+        width: 100px; 
+        height: 150px;
+        justify-content: space-around;   
+    }
+    li a {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 420px ){
+    .cajahijasearch {
+        width: 100%;
+     }
+}
+
+
+
 @media(max-width: 768px){
     .cajahijasearch img{
         width: 100px; 
@@ -465,5 +485,6 @@ a{
         margin-left: 60px;
     }
 }
+
 
 
