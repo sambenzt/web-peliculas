@@ -3,17 +3,18 @@ box-sizing: border-box;
 }
 .generos {
     margin: 0px;
-    background-color: cornflowerblue;
+    background-color: lightblue;
 }
 
 li {
-    font-size: 3rem;
+    font-size: 2rem;
     font-style: italic;
     list-style: none; 
+    font-family:Arial, Helvetica, sans-serif
 }
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 a:hover {
     text-decoration: underline;
