@@ -182,10 +182,18 @@ h4{
 
 /*MEDIA QUERIES*/
 
-@media (max-width: 768){
+@media (max-width: 420px){
+   
+    .cajaSeries{
+        width: 150%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
     .fotoPortada{
         width: 100%;
-        border: 2px solid black;
     }
 
     .descripcionSerie{
