@@ -357,9 +357,6 @@ a{
 }
 
 /*GENRES.CSS*/
-* {
-    box-sizing: border-box;
-    }
     .generos {
         margin: 0px;
         background-color: lightblue;
@@ -371,11 +368,12 @@ a{
         list-style: none; 
         font-family:Arial, Helvetica, sans-serif
     }
-    a {
+    li a {
+        margin-left: 650px;
         text-decoration: none;
         color: white;
     }
-    a:hover {
+    li a:hover {
         text-decoration: underline;
     }
 
@@ -403,22 +401,38 @@ a{
     color: white;
 }
 
+
 @media(max-width: 768px){
     .cajahijasearch img{
         width: 100px; 
         height: 150px;
         justify-content: space-around;   
     }
-
+    li a {
+        margin-left: 300px;
+    }
 }
 
 @media (max-width: 420px ){
+    .cajahijasearch {
+        width: 100%;
+     }
+}
+
+
+
+@media(max-width: 768px){
     .cajahijasearch img{
         width: 100px; 
         height: 150px;
         justify-content: space-around;   
     }
+    li a {
+        margin-left: 300px;
+    }
+}
 
+@media (max-width: 420px ){
     .cajahijasearch {
         width: 100%;
      }
@@ -467,6 +481,10 @@ a{
     h1{
         margin-left: 20px;
     }
+    li a {
+        margin-left: 60px;
+    }
 }
+
 
 
