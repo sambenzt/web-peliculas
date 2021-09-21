@@ -176,7 +176,7 @@ h4{
 .fotoPortada{
     width: 33%;
     display: block;
-    margin: auto;
+    margin-right: 15px;
     padding-bottom: 20px;
 }
 
