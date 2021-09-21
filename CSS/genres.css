@@ -1,0 +1,21 @@
+* {
+box-sizing: border-box;
+}
+.generos {
+    margin: 0px;
+    background-color: cornflowerblue;
+}
+
+li {
+    font-size: 3rem;
+    font-style: italic;
+    list-style: none; 
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+}
+

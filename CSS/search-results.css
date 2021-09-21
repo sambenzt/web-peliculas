@@ -1,0 +1,44 @@
+
+.cajapadresearch{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.cajahijasearch img{
+    width: 250px; 
+    height: 350px;
+    justify-content: space-around;   
+}
+
+.cajahijasearch{
+    width: 50%;
+    text-align: center;
+    justify-content: space-around;
+    line-height: 6px;
+    color: white;
+}
+
+@media(max-width: 768px){
+    .cajahijasearch img{
+        width: 100px; 
+        height: 150px;
+        justify-content: space-around;   
+    }
+
+}
+
+@media (max-width: 420px ){
+    .cajahijasearch img{
+        width: 100px; 
+        height: 150px;
+        justify-content: space-around;   
+    }
+
+    .cajahijasearch {
+        width: 100%;
+     }
+}
