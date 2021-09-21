@@ -159,47 +159,29 @@ h4{
 
 .cajaSeries{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     flex-direction: row;
     justify-content: space-between;
 }
 
+img{
+    width: 40%;
+    height: 60%;
+    display: block;
+    margin:auto
+
+}
 .descripcionSerie{
     width: 50%;
     text-align: center;
     justify-content: space-around;
-    border-left: 2px solid black;
-    font-size: 20px;
+    color: white;
+    border: 2px solid black;
+    font-size: 30px;
     padding: 20px;
-}
-
-.fotoPortada{
-    width: 33%;
-    display: block;
-    margin-right: 15px;
-    padding-bottom: 20px;
-}
-
-/*MEDIA QUERIES*/
-
-@media (max-width: 420px){
-   
-    .cajaSeries{
-        width: 150%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    
-    .fotoPortada{
-        width: 100%;
-    }
-
-    .descripcionSerie{
-        width: 100%;
-        border: 2px solid black;
-    }
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-right: 20px;
 }
 
 /*FAVORITOS.CSS*/
@@ -232,15 +214,6 @@ i{
 
 h1{
     text-align: center;
-}
-
-/*MEDIA QUERIES*/
-
-@media(max-width:420px){
-    .cajaPadreFavoritos{
-        margin: auto;
-        display: block;
-    }
 }
 
 /*MEDIA QUERIES INDEX */
@@ -349,7 +322,31 @@ a{
     color: white;
 }
 
+/*MEDIA QUERIES DETAIL-SERIE*/
 
+@media (max-width: 420px){
+   
+    img{
+        width:90%;
+    }
+
+    .descripcionSerie{
+        width:100%;
+        border: 2px solid black; 
+        display: block;
+        justify-content: center;
+        margin-left: 20px;
+    }
+}
+
+/*MEDIA QUERIES FAVORITOS*/
+
+@media(max-width:420px){
+    .cajaPadreFavoritos{
+        margin: auto;
+        display: block;
+    }
+}
 
 /*MEDIA QUERIES*/
 @media(max-width: 768px){
