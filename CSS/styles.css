@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -184,6 +185,9 @@ img{
     margin-right: 20px;
 }
 
+
+
+
 /*FAVORITOS.CSS*/
 
 .cajaPadreFavoritos{
@@ -216,6 +220,103 @@ h1{
     text-align: center;
 }
 
+
+
+/*DETAIL-MOVIES.HTML*/
+
+.cajadetailmovie{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.movies{
+    width: 50%;
+    text-align: center;
+    justify-content: space-around;
+    color: white;
+    border-right: 2px solid black;
+    font-size: 30px;
+    padding: 20px;
+}
+
+a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/*GENRES.CSS*/
+    .generos {
+        margin: 0px;
+        background-color: lightblue;
+    }
+    
+    li {
+        font-size: 2rem;
+        font-style: italic;
+        list-style: none; 
+        font-family:Arial, Helvetica, sans-serif
+    }
+    li a {
+        margin-left: 650px;
+        text-decoration: none;
+        color: white;
+    }
+    li a:hover {
+        text-decoration: underline;
+    }
+
+/*SEARCH-RESULTS.CSS*/
+.cajapadresearch{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.cajahijasearch img{
+    width: 250px; 
+    height: 350px;
+    justify-content: space-around;   
+}
+
+.cajahijasearch{
+    width: 50%;
+    text-align: center;
+    justify-content: space-around;
+    line-height: 6px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+/* Mobile last*/
+
+/* Tablet*/
+
 /*MEDIA QUERIES INDEX */
 @media(max-width: 768px){
     .cajahija img{
@@ -234,6 +335,80 @@ h1{
 }
 
 
+
+
+/*MEDIA QUERIES DETAIL-MOVIES*/
+@media(max-width: 768px){
+    .imagenrocky{
+        width:100%;
+    }
+
+    .movies{
+        width:100%;
+        border: 2px solid black; 
+    }
+    
+}
+
+
+
+/* MEDIA QUERIES SEARCH*/
+@media(max-width: 768px){
+    .cajahijasearch img{
+        width: 100px; 
+        height: 150px;
+        justify-content: space-around;   
+    }
+    li a {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 420px ){
+    .cajahijasearch {
+        width: 100%;
+     }
+}
+
+
+
+
+/* MEDIA QUERIES GENERO*/
+@media(max-width: 768px){
+    .cajaGenero{
+        flex-direction: column;
+        align-content: center;
+        
+        
+    }
+
+    h1{
+        margin-left: 30px;
+    }
+
+    
+    
+}
+
+
+
+
+/* Mobile*/
+
+/*MEDIA QUERIES FAVORITOS*/
+@media(max-width:420px){
+    .cajaPadreFavoritos{
+        margin: auto;
+        display: block;
+    }
+}
+
+
+
+
+
+
+/*MEDIA QUERIES INDEX */
 @media (max-width: 420px ){
     .cajahija img{
         width: 100px; 
@@ -299,31 +474,10 @@ h1{
     
 }
 
-/*DETAIL-MOVIES.HTML*/
 
-.cajadetailmovie{
-    display: flex;
-    flex-wrap:wrap;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
-.movies{
-    width: 50%;
-    text-align: center;
-    justify-content: space-around;
-    color: white;
-    border-right: 2px solid black;
-    font-size: 30px;
-    padding: 20px;
-}
-
-a{
-    color: white;
-}
 
 /*MEDIA QUERIES DETAIL-SERIE*/
-
 @media (max-width: 420px){
    
     img{
@@ -339,104 +493,8 @@ a{
     }
 }
 
-/*MEDIA QUERIES FAVORITOS*/
 
-@media(max-width:420px){
-    .cajaPadreFavoritos{
-        margin: auto;
-        display: block;
-    }
-}
-
-/*MEDIA QUERIES*/
-@media(max-width: 768px){
-    .imagenrocky{
-        width:100%;
-    }
-
-    .movies{
-        width:100%;
-        border: 2px solid black; 
-    }
-    
-}
-
-/*GENRES.CSS*/
-    .generos {
-        margin: 0px;
-        background-color: lightblue;
-    }
-    
-    li {
-        font-size: 2rem;
-        font-style: italic;
-        list-style: none; 
-        font-family:Arial, Helvetica, sans-serif
-    }
-    li a {
-        margin-left: 650px;
-        text-decoration: none;
-        color: white;
-    }
-    li a:hover {
-        text-decoration: underline;
-    }
-
-/*SEARCH-RESULTS.CSS*/
-.cajapadresearch{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 60px;
-}
-
-.cajahijasearch img{
-    width: 250px; 
-    height: 350px;
-    justify-content: space-around;   
-}
-
-.cajahijasearch{
-    width: 50%;
-    text-align: center;
-    justify-content: space-around;
-    line-height: 6px;
-    color: white;
-}
-
-
-@media(max-width: 768px){
-    .cajahijasearch img{
-        width: 100px; 
-        height: 150px;
-        justify-content: space-around;   
-    }
-    li a {
-        margin-left: 300px;
-    }
-}
-
-@media (max-width: 420px ){
-    .cajahijasearch {
-        width: 100%;
-     }
-}
-
-
-
-@media(max-width: 768px){
-    .cajahijasearch img{
-        width: 100px; 
-        height: 150px;
-        justify-content: space-around;   
-    }
-    li a {
-        margin-left: 300px;
-    }
-}
-
+/* MEDIA QUERIES SEARCH*/
 @media (max-width: 420px ){
     .cajahijasearch {
         width: 100%;
@@ -457,24 +515,8 @@ a{
     align-items: center;
 }
 
-/* MEDIA QUERIES*/
 
-@media(max-width: 768px){
-    .cajaGenero{
-        flex-direction: column;
-        align-content: center;
-        
-        
-    }
-
-    h1{
-        margin-left: 30px;
-    }
-
-    
-    
-}
-
+/* MEDIA QUERIES GENERO*/
 @media (max-width: 320px){
     .cajaGenero{
         flex-direction: column;
@@ -490,6 +532,7 @@ a{
         margin-left: 60px;
     }
 }
+
 
 
 
