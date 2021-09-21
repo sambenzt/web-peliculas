@@ -357,9 +357,6 @@ a{
 }
 
 /*GENRES.CSS*/
-* {
-    box-sizing: border-box;
-    }
     .generos {
         margin: 0px;
         background-color: lightblue;
@@ -373,12 +370,10 @@ a{
     }
     li a {
         margin-left: 650px;
-    }
-    a {
         text-decoration: none;
         color: white;
     }
-    a:hover {
+    li a:hover {
         text-decoration: underline;
     }
 
@@ -418,12 +413,6 @@ a{
 }
 
 @media (max-width: 420px ){
-    .cajahijasearch img{
-        width: 100px; 
-        height: 150px;
-        justify-content: space-around;   
-    }
-
     .cajahijasearch {
         width: 100%;
      }
