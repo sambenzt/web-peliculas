@@ -64,7 +64,7 @@ body{
    
      
 }
-/* Index: html*/
+/* Index.html*/
 
 h1{
     margin-left: 39px;
@@ -135,7 +135,7 @@ h4{
 
 
 
-/* GENRES:HTML */
+/* GENRES.HTML */
 
 .generostodos{
     display: flex;
@@ -235,7 +235,7 @@ h1{
     }
 }
 
-/*MEDIA QUERIES*/
+/*MEDIA QUERIES INDEX */
 @media(max-width: 768px){
     .cajahija img{
         width: 100px; 
@@ -316,6 +316,89 @@ h1{
     }
 
     
+}
+
+/*DETAIL-MOVIES.HTML*/
+
+.cajadetailmovie{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.movies{
+    width: 50%;
+    text-align: center;
+    justify-content: space-around;
+    color: white;
+    border-right: 2px solid black;
+    font-size: 30px;
+    padding: 20px;
+}
+
+a{
+    color: white;
+}
+
+
+
+/*MEDIA QUERIES*/
+@media(max-width: 768px){
+    .imagenrocky{
+        width:100%;
+    }
+
+    .movies{
+        width:100%;
+        border: 2px solid black; 
+    }
+    
+}
+
+/*DETAIL-GENRES.CSS*/
+.generoFantastico img{
+    width: 250px;
+    height: 320px;
+    background-color: blue;
+
+}
+
+.cajaGenero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* MEDIA QUERIES*/
+
+@media(max-width: 768px){
+    .cajaGenero{
+        flex-direction: column;
+        align-content: center;
+        /*margin-left: 250px;*/
+        
+    }
+
+    h1{
+        margin-left: 30px;
+    }
+
+    
+    
+}
+
+@media (max-width: 320px){
+    .cajaGenero{
+        flex-direction: column;
+        align-content: center;
+        
+        
+    }
+
+    h1{
+        margin-left: 20px;
+    }
 }
 
 
