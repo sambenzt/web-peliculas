@@ -249,7 +249,13 @@ a{
 }
 
 
+/*DETAIL-GENRES.CSS*/
+.generoFantastico img{
+    width: 250px;
+    height: 320px;
+    background-color: blue;
 
+}
 
 
 
@@ -321,7 +327,7 @@ a{
 
 /* Tablet*/
 
-/*MEDIA QUERIES INDEX */
+
 @media(max-width: 768px){
     .cajahija img{
         width: 100px; 
@@ -336,13 +342,7 @@ a{
     .mostrar{
         display:none
     }
-}
 
-
-
-
-/*MEDIA QUERIES DETAIL-MOVIES*/
-@media(max-width: 768px){
     .imagenrocky{
         width:100%;
         height: 100%;
@@ -353,14 +353,7 @@ a{
         border: 2px solid black; 
     }
 
-    
-    
-}
 
-
-
-/* MEDIA QUERIES SEARCH*/
-@media(max-width: 768px){
     .cajahijasearch img{
         width: 100px; 
         height: 150px;
@@ -369,19 +362,7 @@ a{
     li a {
         margin-left: 300px;
     }
-}
 
-@media (max-width: 420px ){
-    .cajahijasearch {
-        width: 100%;
-     }
-}
-
-
-
-
-/* MEDIA QUERIES GENERO*/
-@media(max-width: 768px){
     .cajaGenero{
         flex-direction: column;
         align-content: center;
@@ -394,29 +375,20 @@ a{
     }
 
     
-    
-}
+  }
 
 
 
 
 /* Mobile*/
 
-/*MEDIA QUERIES FAVORITOS*/
+
 @media(max-width:420px){
     .cajaPadreFavoritos{
         margin: auto;
         display: block;
     }
-}
 
-
-
-
-
-
-/*MEDIA QUERIES INDEX */
-@media (max-width: 420px ){
     .cajahija img{
         width: 100px; 
         height: 150px;
@@ -477,15 +449,6 @@ a{
     .buscadorpalabra{
         margin-left: 70px;
     }
-
-    
-}
-
-
-
-
-/*MEDIA QUERIES DETAIL-SERIE*/
-@media (max-width: 420px){
    
     img{
         width:90%;
@@ -498,23 +461,12 @@ a{
         justify-content: center;
         margin-left: 20px;
     }
-}
 
-
-/* MEDIA QUERIES SEARCH*/
-@media (max-width: 420px ){
     .cajahijasearch {
         width: 100%;
      }
-}
 
-/*DETAIL-GENRES.CSS*/
-.generoFantastico img{
-    width: 250px;
-    height: 320px;
-    background-color: blue;
 
-}
 
 .cajaGenero{
     display: flex;
@@ -522,9 +474,6 @@ a{
     align-items: center;
 }
 
-
-/* MEDIA QUERIES GENERO*/
-@media (max-width: 320px){
     .cajaGenero{
         flex-direction: column;
         align-content: center;
@@ -543,6 +492,10 @@ a{
         width: 250px;
         height: 300px;
     }
+
+    .cajahijasearch {
+        width: 100%;
+     }
 }
 
 
