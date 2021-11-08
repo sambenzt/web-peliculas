@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,68 +8,75 @@
     <title> SERIES </title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="../Tp-integrador-/CSS/detalle-serie.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-
-
-
-
 </head>
+
 <body>
-    <main> 
-        <header class="responsive-header"> 
-            <section class="cajainicio" >
+    <main>
+        <header class="responsive-header">
+            <section class="cajainicio">
 
-                        <article class="menu"> 
-                            <a href="index.html"> <img class="logo" src="./img/logo.jpg" alt="logo">  </a>
-                            <a href="genres.html" class="barratexto"> Generos </a>
-                            <a href="favorite.html" class="barratexto"> Favoritos </a>
-                            <a href="detail-series.html" class="barratexto"> Series </a>
-                            <a href="detail-movie.html" class="barratexto"> Peliculas </a>
-                            <form action="search-results.html" method="GET">
-                            <p class="buscadorpalabra"><label for="Buscador">Buscador</label></p>
-                            <p class="buscador"><input type="text" id="Buscador" name="Buscador"></p>
-                            </form>
-                            
-                        </article>
-                        </section>
-                   
-    
+                <article class="menu">
+                    <a href="index.html"> <img class="logo" src="./img/logo.jpg" alt="logo"> </a>
+                    <a href="genres.html" class="barratexto"> Generos </a>
+                    <a href="favorite.html" class="barratexto"> Favoritos </a>
+                    <a href="detail-series.html" class="barratexto"> Series </a>
+                    <a href="detail-movie.html" class="barratexto"> Peliculas </a>
+                    <form action="search-results.html" method="GET">
+                        <p class="buscadorpalabra"><label for="Buscador">Buscador</label></p>
+                        <p class="buscador"><input type="text" id="Buscador" name="Buscador"></p>
+                    </form>
+
+                </article>
+            </section>
+
+
         </header>
-    
 
+        <section class="cajaSeries">
+            <img id="fotoSerie" src="img/gossipgirl.jpg" alt="Portada de Gossip Girl">
 
-    <section class="cajaSeries">
-
-    <img src="img/gossipgirl.jpg" alt="Portada de Gossip Girl">
-
-    <article class="descripcionSerie">
-        <h2> Gossip Girl</h2>
-    <strong>El bachillerato ha culminado para los ex alumnos privilegiados de la exclusiva secundaria en la parte alta Este de Manhattan, pero Gossip Girl sigue compartiendo exclusivas en mensajes de texto de los escándalos y las vicisitudes. Mientras los graduados se embarcan hacia el futuro y los nuevos estudiantes llegan a Constance Billard, Gossip Girl continúa creando polémica e informando los posibles escándalos y la identidad de Gossip Girl sigue siendo un misterio.</strong>
-    <p> Pertenece al genero de <a class="redireccionGenero" href="detail-genres.html"> Drama </a></p>
-    <p> Duracion: 42 m</p>
-    <p> Fecha de estreno: 19 de septiembre del 2007</p>
-    <p> Calificacion: 9,2/10</p>
-    </article>
-
-    </section>
-
-    <footer>
-        <section class="footer"> 
-            <p class="nombresintegrantes"> Lucía Denham, Teresa Montaña y Jazmín de Achával </p> 
-            <p> Para más información consultar nuestras redes</p>
-            <article class="contactos"> 
-                    <a href="https://www.instagram.com/?hl=es" target="_blanck"> <i class="fab fa-instagram"></i></a>
-                <a href="https://es-la.facebook.com/" target="_blanck"> <i class="fab fa-facebook"> </i></a>
-                <a href="https://twitter.com/?lang=es" target="_blanck"> <i class="fab fa-twitter"></i></a>
-                <a href="mailto:marathonmovies@gmail.com"> Dejanos tu mensaje </a>
+            <article class="descripcionSerie">
+                <h2 id="tituloSerie"> Gossip Girl</h2>
+                <strong id="sinopsisSerie">El bachillerato ha culminado para los ex alumnos privilegiados de la
+                    exclusiva secundaria en la
+                    parte alta Este de Manhattan, pero Gossip Girl sigue compartiendo exclusivas en mensajes de texto de
+                    los escándalos y las vicisitudes. Mientras los graduados se embarcan hacia el futuro y los nuevos
+                    estudiantes llegan a Constance Billard, Gossip Girl continúa creando polémica e informando los
+                    posibles escándalos y la identidad de Gossip Girl sigue siendo un misterio.</strong>
+                <p id="generosSerie">
+                    Pertenece al genero de
+                    <a class="redireccionGenero" href="detail-genres.html"> Drama </a>
+                </p>
+                <p id="duracionSerie"> Duracion: 42 m</p>
+                <p id="estrenoSerie"> Fecha de estreno: 2010-05-14</p>
+                <p id="calificacionSerie"> Calificacion: 9,2/10</p>
             </article>
         </section>
 
-    
-    </footer>
+        <section style="display: none" id="noHaySerie">
+            <h1> No se encontró la serie</h1>
+        </section>
 
-</main>
+        <footer>
+            <section class="footer">
+                <p class="nombresintegrantes"> Lucía Denham, Teresa Montaña y Jazmín de Achával </p>
+                <p> Para más información consultar nuestras redes</p>
+                <article class="contactos">
+                    <a href="https://www.instagram.com/?hl=es" target="_blanck"> <i class="fab fa-instagram"></i></a>
+                    <a href="https://es-la.facebook.com/" target="_blanck"> <i class="fab fa-facebook"> </i></a>
+                    <a href="https://twitter.com/?lang=es" target="_blanck"> <i class="fab fa-twitter"></i></a>
+                    <a href="mailto:marathonmovies@gmail.com"> Dejanos tu mensaje </a>
+                </article>
+            </section>
+
+
+        </footer>
+
+    </main>
+
+
+    <script src="js/detail-series.js"></script>
 </body>
-</html>
 
+</html>
