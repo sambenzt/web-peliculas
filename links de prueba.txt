@@ -1,5 +1,7 @@
 819b7c86c8607512f0fdebc52441505d
 
+ https://api.themoviedb.org/3/genre/movie/list?api_key=819b7c86c8607512f0fdebc52441505d
+
 https://api.themoviedb.org/3/movie/550?api_key=819b7c86c8607512f0fdebc52441505d
 
 eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4MTliN2M4NmM4NjA3NTEyZjBmZGViYzUyNDQxNTA1ZCIsInN1YiI6IjYxODk5M2U0Y2I2ZGI1MDA0MmM3NmNlMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.dFwa9MK90wVGXzyoAfceZcNfywVvKh3yN-KxQ5NWEnQ
@@ -18,3 +20,5 @@ https://api.themoviedb.org/3/tv/1402?api_key=819b7c86c8607512f0fdebc52441505d&la
 
 https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xAKMj134XHQVNHLC6rWsccLMenG.jpg
 
+
+https://developers.themoviedb.org/3/movies/get-popular-movies?api_key=819b7c86c8607512f0fdebc52441505d&language=en-US&page=1

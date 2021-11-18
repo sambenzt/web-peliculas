@@ -1,0 +1,5 @@
+api
+
+?api_key=819b7c86c8607512f0fdebc52441505d
+
+https://api.themoviedb.org/3/genre/movie/list?api_key=819b7c86c8607512f0fdebc52441505d&language=en-US

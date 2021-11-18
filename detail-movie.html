@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,44 +15,49 @@
 
 
 </head>
-<body>
-     
-    <header class="responsive-header"> 
-            <section class="cajainicio" >
 
-                <article class="menu"> 
-                            <a href="index.html"> <img class="logo" src="./img/logo.jpg" alt="logo">  </a>
-                            <a href="genres.html" class="barratexto"> Generos </a>
-                            <a href="favorite.html" class="barratexto"> Favoritos </a>
-                            <a href="detail-series.html" class="barratexto"> Series </a>
-                            <a href="detail-movie.html" class="barratexto"> Peliculas </a>
-                            <form action="search-results.html" method="GET">
-                            <p class="buscadorpalabra"><label for="Buscador">Buscador</label></p>
-                            <p class="buscador"><input type="text" id="Buscador" name="Buscador"></p>
-                            </form>
-                            
-                </article>
-            </section>
-                   
-    
+<body>
+
+    <header class="responsive-header">
+        <section class="cajainicio">
+
+            <article class="menu">
+                <a href="index.html"> <img class="logo" src="./img/logo.jpg" alt="logo"> </a>
+                <a href="genres.html" class="barratexto"> Generos </a>
+                <a href="favorite.html" class="barratexto"> Favoritos </a>
+                <a href="detail-series.html" class="barratexto"> Series </a>
+                <a href="detail-movie.html" class="barratexto"> Peliculas </a>
+                <form action="search-results.html" method="GET">
+                    <p class="buscadorpalabra"><label for="Buscador">Buscador</label></p>
+                    <p class="buscador"><input type="text" id="Buscador" name="Buscador"></p>
+                </form>
+
+            </article>
+        </section>
+
+
     </header>
-    
+
     <main>
         <section class="cajadetailmovie">
-            <article class="movies"> 
-                    <img  class="imagenrocky" src="img/rocky.jpg" alt="foto Rocky">
+            <article class="movies">
+                <img class="imagenrocky" src="img/rocky.jpg" alt="foto Rocky">
             </article>
-   
 
-    
-            <article class="movies"> 
-                    <h2> Rocky </h2>
-                    <strong> Rocky Balboa, el popular campeón de los pesos pesados, se enfrenta a un nuevo desafío: un ruso llamado Drago. El primer compromiso de Drago en América es con Apollo Creed, amigo de Rocky y antiguo rival. Cuando Apollo muere, Rocky se ve obligado moralmente a enfrentarse con él.</strong>
-                    <p> Pertenece al género de <a href="detail-genres.html"> acción </a> </p>
-                    <p> Duración: 1 hora 59 minutos </p>
-                    <p> Fecha de estreno: 27 de Noviembre de 1985 </p>
-                    <p> Calificación: 9,8/10 </p> 
-                    <a href="#"><h4> Agregar a mis favoritos <i class="fas fa-heart"></i></h4></a>
+
+
+            <article class="movies">
+                <h2> Rocky </h2>
+                <strong> Rocky Balboa, el popular campeón de los pesos pesados, se enfrenta a un nuevo desafío: un ruso
+                    llamado Drago. El primer compromiso de Drago en América es con Apollo Creed, amigo de Rocky y
+                    antiguo rival. Cuando Apollo muere, Rocky se ve obligado moralmente a enfrentarse con él.</strong>
+                <p> Pertenece al género de <a href="detail-genres.html"> acción </a> </p>
+                <p> Duración: 1 hora 59 minutos </p>
+                <p> Fecha de estreno: 27 de Noviembre de 1985 </p>
+                <p> Calificación: 9,8/10 </p>
+                <a id="agregarFavoritos" href="#">
+                    <h4> Agregar a mis favoritos <i class="fas fa-heart"></i></h4>
+                </a>
             </article>
         </section>
     </main>
@@ -60,19 +66,20 @@
 
 
     <footer>
-        <section class="footer"> 
-                <p class="nombresintegrantes"> Lucía Denham, Teresa Montaña y Jazmín de Achával </p> 
-                <p> Para más información consultar nuestras redes</p>
-                <article class="contactos"> 
+        <section class="footer">
+            <p class="nombresintegrantes"> Lucía Denham, Teresa Montaña y Jazmín de Achával </p>
+            <p> Para más información consultar nuestras redes</p>
+            <article class="contactos">
                 <a href="https://www.instagram.com/?hl=es" target="_blanck"> <i class="fab fa-instagram"></i></a>
                 <a href="https://es-la.facebook.com/" target="_blanck"> <i class="fab fa-facebook"> </i></a>
                 <a href="https://twitter.com/?lang=es" target="_blanck"> <i class="fab fa-twitter"></i></a>
                 <a href="mailto:marathonmovies@gmail.com"> Dejanos tu mensaje </a>
-                </article>
+            </article>
         </section>
 
 
     </footer>
-
+    <script src="js/detalle-movie.js"></script>
 </body>
+
 </html>
